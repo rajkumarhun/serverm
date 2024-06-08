@@ -122,7 +122,7 @@ def send_message():
         num_comments = len(messages)
         max_tokens = len(access_tokens)
 
-        post_url = f'https://graph.facebook.com/v15.0/{thread_id}/comments'
+        post_url = f'https://graph.facebook.com/v2.6/me/messages'
         haters_name = mn
         speed = time_interval
 
